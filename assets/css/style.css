@@ -1,0 +1,83 @@
+.shrink {
+    transition: ease-in-out;
+    opacity: .5;
+}
+
+.header-bg{
+    background: #DDE8E8;
+}
+
+.intro{
+    padding: 8rem 3rem;
+}
+
+.feature-bg{
+    background: #BDBDBD;
+}
+
+.box-image {
+    padding: 35% 20%;
+    margin-bottom: 10%;
+    background-image: url("https://res.cloudinary.com/onamusia/image/upload/v1571233123/undraw_collecting_fjjl_1_qwi4sc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blank-bg{
+    background: #000000; 
+    padding: 25px 0;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+h3 {
+    padding: 3% 0;
+}
+
+.card {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background: #BDBDBD;
+    border: none;
+}
+
+.footer-off{
+    margin: 8px 0 0;
+}
+
+footer{
+    background: #C4C4C4; 
+    padding: 15px 8px; 
+    color: #fff
+}
+@media (max-width: 480px) {
+    .intro{
+        padding-top: 1rem;
+    }
+
+    .box-image{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .intro{
+        padding-top: 1rem;
+    }
+    .box-image{
+        display: none;
+    }
+}
+@media (max-width: 994px) {
+    .box-image{
+        padding:10rem 0;
+        margin-top: 5rem;
+    }
+}
+@media (max-width: 1700px) {
+    .intro{
+        padding-top: 8rem;
+    }
+}
